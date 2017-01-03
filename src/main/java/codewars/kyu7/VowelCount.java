@@ -1,4 +1,4 @@
-package codewars;
+package codewars.kyu7;
 
 //a, e, i, o, and u
 public class VowelCount {

@@ -1,5 +1,6 @@
-package codewars;
+package codewars.kyu7;
 
+import codewars.kyu7.GpsSpeed;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

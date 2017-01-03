@@ -1,4 +1,4 @@
-package codewars;
+package codewars.kyu7;
 
 public class GpsSpeed {
     public static int gps(int seconds, double[] distances) {

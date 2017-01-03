@@ -1,5 +1,6 @@
-package codewars;
+package codewars.kyu7;
 
+import codewars.kyu7.PokerHand;
 import org.junit.Test;
 
 import java.util.ArrayList;

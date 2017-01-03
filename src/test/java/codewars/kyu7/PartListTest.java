@@ -1,5 +1,6 @@
-package codewars;
+package codewars.kyu7;
 
+import codewars.kyu7.PartList;
 import org.junit.Test;
 
 import java.util.Arrays;

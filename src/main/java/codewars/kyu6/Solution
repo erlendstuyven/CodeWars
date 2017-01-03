@@ -1,0 +1,19 @@
+import java.util.*;
+public class FindOdd{
+  public static int findIt(int[] A){
+    Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+    for(int x : A){
+      if(map.containsKey(x)){
+        map.put(x, map.get(x) + 1);
+      }else{
+        map.put(x, 1);
+      }
+    }
+    for(Map.Entry<Integer,Integer> x : map.entrySet()){
+      if(x.getValue() % 2 == 1){
+        return x.getKey();
+      }
+    }
+    return 0;
+  }
+}
