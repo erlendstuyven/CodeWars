@@ -1,5 +1,6 @@
 package java8.com.insightfullogic.java8.exercises.chapter3;
 
+import java8.com.insightfullogic.java8.examples.chapter1.Album;
 import java8.com.insightfullogic.java8.examples.chapter1.SampleData;
 import org.junit.Test;
 
@@ -7,6 +8,9 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import static java.util.Arrays.asList;
+import static java8.com.insightfullogic.java8.examples.chapter1.SampleData.aLoveSupreme;
+import static java8.com.insightfullogic.java8.examples.chapter1.SampleData.manyTrackAlbum;
+import static java8.com.insightfullogic.java8.examples.chapter1.SampleData.sampleShortAlbum;
 import static org.junit.Assert.assertEquals;
 
 public class Question1Test {
@@ -29,11 +33,13 @@ public class Question1Test {
         assertEquals(asList("John Coltrane", "US", "John Lennon", "UK", "The Beatles", "UK"), namesAndOrigins);
     }
 
-/*    @Test
+    @Test
     public void findsShortAlbums() {
         List<Album> input = asList(manyTrackAlbum, sampleShortAlbum, aLoveSupreme);
+
         List<Album> result = Question1.getAlbumsWithAtMostThreeTracks(input);
+
         assertEquals(asList(sampleShortAlbum, aLoveSupreme), result);
-    }*/
+    }
 
 }

@@ -3,7 +3,6 @@ package java8.com.insightfullogic.java8.exercises.chapter3;
 
 import java8.com.insightfullogic.java8.examples.chapter1.Album;
 import java8.com.insightfullogic.java8.examples.chapter1.Artist;
-import java8.com.insightfullogic.java8.exercises.Exercises;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,6 +20,8 @@ public class Question1 {
     }
 
     public static List<Album> getAlbumsWithAtMostThreeTracks(List<Album> input) {
-        return Exercises.replaceThisWithSolution();
+        return input.stream()
+                .filter(album -> album.getTrackList().size() <= 3)
+                .collect(Collectors.toList());
     }
 }
