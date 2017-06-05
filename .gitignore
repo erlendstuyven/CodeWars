@@ -1,0 +1,15 @@
+build/
+classes/
+out/
+out-test/
+.gradle/
+.idea/
+*.iml
+.DS_store
+*.log
+*.orig
+src/main/resources/environment.properties
+extension/src/main/resources/static
+/.idea/
+/build/
+/.idea/misc.xml
