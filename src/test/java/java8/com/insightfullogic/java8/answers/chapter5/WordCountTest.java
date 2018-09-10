@@ -1,5 +1,6 @@
 package java8.com.insightfullogic.java8.answers.chapter5;
 
+import java8.com.insightfullogic.java8.exercises.chapter5.WordCount;
 import org.junit.Test;
 
 import java.util.Map;
@@ -12,6 +13,7 @@ public class WordCountTest {
     @Test
     public void passesBookExample() {
         Stream<String> names = Stream.of("John", "Paul", "George", "John", "Paul", "John");
+
         Map<String, Long> counts = WordCount.countWords(names);
 
         assertEquals(3, counts.size());

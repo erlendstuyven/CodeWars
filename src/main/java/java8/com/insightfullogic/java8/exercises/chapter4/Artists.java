@@ -1,6 +1,6 @@
 //package java8.com.insightfullogic.java8.exercises.chapter4;
 //
-//import com.insightfullogic.java8.examples.chapter1.Artist;
+//import java8.com.insightfullogic.java8.examples.chapter1.Artist;
 //
 //import java.util.List;
 //
